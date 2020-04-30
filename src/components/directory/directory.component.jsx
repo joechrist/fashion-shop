@@ -12,7 +12,7 @@ class Directory extends React.Component {
             sections: [
                 {
                     title: 'hats',
-                    imageUrl: 'https://i.ibb.co/cvpntL1/hats',
+                    imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
                     id: 1,
                     linkUrl: 'shop/hats'
                 },
@@ -52,7 +52,7 @@ class Directory extends React.Component {
                     <MenuItem
                         key={id}
                         title={title}
-                        imageUrl={imageUrl}
+                        imageURL={imageUrl}
                         size={size}
                     />
                 ))}
